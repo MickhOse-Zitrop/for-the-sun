@@ -86,7 +86,7 @@ export default function Home() {
       </div>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/foreground.jpg"
+        src="./foreground.jpg"
         className="blur brightness-50 absolute h-full w-full object-cover"
         alt={"photo"}
       />
