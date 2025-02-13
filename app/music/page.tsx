@@ -41,7 +41,7 @@ export default function MusicPage() {
     if (song.current?.id !== i.toString()) {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-expect-error
-      song.current.src = `/audio/music-${i}.mp3`;
+      song.current.src = `/for-the-sun/audio/music-${i}.mp3`;
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-expect-error
       song.current.id = i.toString();
