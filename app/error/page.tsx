@@ -19,14 +19,14 @@ export default function ErrorPage() {
   const router = useRouter();
 
   return (
-    <div className="min-h-screen flex flex-col gap-6 items-center justify-center bg-primary-foreground mx-4">
-      <h1 className="text-3xl">
+    <div className="min-h-screen flex flex-col gap-6 items-center justify-center bg-primary-foreground">
+      <h1 className="text-3xl mx-4">
         Хмм...
         <Suspense>
           <Query />
         </Suspense>
       </h1>
-      <h1 className="text-2xl">Я обязательно отвечу на этот вопрос лично)</h1>
+      <h1 className="text-2xl mx-4">Я обязательно отвечу на этот вопрос лично)</h1>
       <Button onClick={() => router.back()}>
         <ArrowLeft /> К поиску
       </Button>
