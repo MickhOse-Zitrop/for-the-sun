@@ -96,7 +96,7 @@ export default function MusicPage() {
                   >
                     <AvatarImage
                       className="object-cover"
-                      src={`/music-${i + 1}.${e.png ?? "jpg"}`}
+                      src={`/for-the-sun/music-${i + 1}.${e.png ?? "jpg"}`}
                       alt="image"
                     />
                     <AvatarFallback>
