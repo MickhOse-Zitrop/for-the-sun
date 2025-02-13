@@ -64,7 +64,7 @@ export default function ImagesPage() {
                   <CardContent className="flex aspect-square items-center relative justify-center p-3 select-none">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src={`/${index}.jpg`}
+                      src={`/for-the-sun/${index}.jpg`}
                       alt="Фото"
                       className="h-full w-full rounded object-cover"
                     />
