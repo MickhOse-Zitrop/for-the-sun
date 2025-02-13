@@ -19,7 +19,7 @@ export default function ErrorPage() {
   const router = useRouter();
 
   return (
-    <div className="min-h-screen flex flex-col gap-6 items-center justify-center bg-primary-foreground">
+    <div className="min-h-screen flex flex-col gap-6 items-center justify-center bg-primary-foreground mx-4">
       <h1 className="text-3xl">
         Хмм...
         <Suspense>
